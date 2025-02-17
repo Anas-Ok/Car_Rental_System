@@ -20,9 +20,11 @@ namespace Car_Rental_System
             dgvAllCustomers.DataSource = clsCustomer.GetAllCustomers();
         }
 
-        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("Are you sure you want to delete this customer?", "Delete Customer", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Are you sure you want to delete this customer?", "Delete Customer", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 int CustomerID = Convert.ToInt32(dgvAllCustomers.SelectedRows[0].Cells["CustomerID"].Value);
                 clsCustomer.Delete(CustomerID);

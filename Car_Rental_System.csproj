@@ -56,11 +56,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCustomerMain.cs">
+    <Compile Include="Customers\frmAddNewCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCustomerMain.Designer.cs">
+    <Compile Include="Customers\frmAddNewCustomer.Designer.cs">
+      <DependentUpon>frmAddNewCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\frmCustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\frmCustomerList.Designer.cs">
+      <DependentUpon>frmCustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\frmCustomerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\frmCustomerMain.Designer.cs">
       <DependentUpon>frmCustomerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\frmFindCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers\frmFindCustomer.Designer.cs">
+      <DependentUpon>frmFindCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Vehicles\ctrlVehicleInfo.cs">
       <SubType>UserControl</SubType>
@@ -118,8 +136,17 @@
     <Compile Include="Vehicles\VehicleMain.Designer.cs">
       <DependentUpon>VehicleMain.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmCustomerMain.resx">
+    <EmbeddedResource Include="Customers\frmAddNewCustomer.resx">
+      <DependentUpon>frmAddNewCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\frmCustomerList.resx">
+      <DependentUpon>frmCustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\frmCustomerMain.resx">
       <DependentUpon>frmCustomerMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers\frmFindCustomer.resx">
+      <DependentUpon>frmFindCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vehicles\ctrlVehicleInfo.resx">
       <DependentUpon>ctrlVehicleInfo.cs</DependentUpon>

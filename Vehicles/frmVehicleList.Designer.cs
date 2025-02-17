@@ -46,6 +46,8 @@
             this.dgvVehicles.AllowUserToAddRows = false;
             this.dgvVehicles.AllowUserToDeleteRows = false;
             this.dgvVehicles.AllowUserToResizeRows = false;
+            this.dgvVehicles.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvVehicles.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.dgvVehicles.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.dgvVehicles.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvVehicles.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
@@ -87,6 +89,7 @@
             this.dgvVehicles.RowHeadersWidth = 51;
             this.dgvVehicles.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvVehicles.RowTemplate.Height = 24;
+            this.dgvVehicles.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.dgvVehicles.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvVehicles.Size = new System.Drawing.Size(1213, 752);
             this.dgvVehicles.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Silver;
@@ -101,7 +104,7 @@
             this.tsmShowInformation,
             this.toolStripMenuItem1});
             this.poisonContextMenuStrip1.Name = "poisonContextMenuStrip1";
-            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(229, 122);
+            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(229, 94);
             this.poisonContextMenuStrip1.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Silver;
             this.poisonContextMenuStrip1.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
             this.poisonContextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.poisonContextMenuStrip1_Opening);

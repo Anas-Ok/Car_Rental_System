@@ -84,5 +84,10 @@ namespace Car_Rental_System
         {
 
         }
+
+        private void ctrlVehicleInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -80,11 +80,11 @@
             // 
             this.foreverLabel1.AutoSize = true;
             this.foreverLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel1.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel1.ForeColor = System.Drawing.Color.Black;
-            this.foreverLabel1.Location = new System.Drawing.Point(78, 45);
+            this.foreverLabel1.Location = new System.Drawing.Point(78, 55);
             this.foreverLabel1.Name = "foreverLabel1";
-            this.foreverLabel1.Size = new System.Drawing.Size(74, 35);
+            this.foreverLabel1.Size = new System.Drawing.Size(75, 39);
             this.foreverLabel1.TabIndex = 1;
             this.foreverLabel1.Text = "Make:";
             // 
@@ -92,11 +92,11 @@
             // 
             this.foreverLabel2.AutoSize = true;
             this.foreverLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel2.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel2.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel2.ForeColor = System.Drawing.Color.Black;
-            this.foreverLabel2.Location = new System.Drawing.Point(601, 45);
+            this.foreverLabel2.Location = new System.Drawing.Point(607, 55);
             this.foreverLabel2.Name = "foreverLabel2";
-            this.foreverLabel2.Size = new System.Drawing.Size(80, 35);
+            this.foreverLabel2.Size = new System.Drawing.Size(82, 39);
             this.foreverLabel2.TabIndex = 3;
             this.foreverLabel2.Text = "Model:";
             // 
@@ -130,11 +130,11 @@
             // 
             this.foreverLabel3.AutoSize = true;
             this.foreverLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel3.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel3.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel3.ForeColor = System.Drawing.Color.Black;
             this.foreverLabel3.Location = new System.Drawing.Point(78, 149);
             this.foreverLabel3.Name = "foreverLabel3";
-            this.foreverLabel3.Size = new System.Drawing.Size(66, 35);
+            this.foreverLabel3.Size = new System.Drawing.Size(69, 39);
             this.foreverLabel3.TabIndex = 5;
             this.foreverLabel3.Text = "Year:";
             // 
@@ -160,11 +160,11 @@
             // 
             this.foreverLabel4.AutoSize = true;
             this.foreverLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel4.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel4.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel4.ForeColor = System.Drawing.Color.Black;
-            this.foreverLabel4.Location = new System.Drawing.Point(69, 275);
+            this.foreverLabel4.Location = new System.Drawing.Point(68, 281);
             this.foreverLabel4.Name = "foreverLabel4";
-            this.foreverLabel4.Size = new System.Drawing.Size(95, 35);
+            this.foreverLabel4.Size = new System.Drawing.Size(99, 39);
             this.foreverLabel4.TabIndex = 9;
             this.foreverLabel4.Text = "Mileage:";
             // 
@@ -198,11 +198,11 @@
             // 
             this.foreverLabel5.AutoSize = true;
             this.foreverLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel5.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel5.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel5.ForeColor = System.Drawing.Color.Black;
-            this.foreverLabel5.Location = new System.Drawing.Point(602, 271);
+            this.foreverLabel5.Location = new System.Drawing.Point(599, 281);
             this.foreverLabel5.Name = "foreverLabel5";
-            this.foreverLabel5.Size = new System.Drawing.Size(117, 35);
+            this.foreverLabel5.Size = new System.Drawing.Size(120, 39);
             this.foreverLabel5.TabIndex = 11;
             this.foreverLabel5.Text = "Fuel Type:";
             // 
@@ -230,11 +230,11 @@
             // 
             this.foreverLabel6.AutoSize = true;
             this.foreverLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel6.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel6.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel6.ForeColor = System.Drawing.Color.Black;
-            this.foreverLabel6.Location = new System.Drawing.Point(602, 390);
+            this.foreverLabel6.Location = new System.Drawing.Point(607, 401);
             this.foreverLabel6.Name = "foreverLabel6";
-            this.foreverLabel6.Size = new System.Drawing.Size(113, 35);
+            this.foreverLabel6.Size = new System.Drawing.Size(112, 39);
             this.foreverLabel6.TabIndex = 13;
             this.foreverLabel6.Text = "Car Type:";
             // 
@@ -261,11 +261,11 @@
             // 
             this.foreverLabel7.AutoSize = true;
             this.foreverLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel7.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel7.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel7.ForeColor = System.Drawing.Color.Black;
             this.foreverLabel7.Location = new System.Drawing.Point(68, 510);
             this.foreverLabel7.Name = "foreverLabel7";
-            this.foreverLabel7.Size = new System.Drawing.Size(234, 35);
+            this.foreverLabel7.Size = new System.Drawing.Size(225, 39);
             this.foreverLabel7.TabIndex = 15;
             this.foreverLabel7.Text = "Rental Price Per Day:";
             // 
@@ -273,11 +273,11 @@
             // 
             this.foreverLabel10.AutoSize = true;
             this.foreverLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel10.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel10.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel10.ForeColor = System.Drawing.Color.Black;
-            this.foreverLabel10.Location = new System.Drawing.Point(767, 510);
+            this.foreverLabel10.Location = new System.Drawing.Point(761, 510);
             this.foreverLabel10.Name = "foreverLabel10";
-            this.foreverLabel10.Size = new System.Drawing.Size(220, 35);
+            this.foreverLabel10.Size = new System.Drawing.Size(210, 39);
             this.foreverLabel10.TabIndex = 17;
             this.foreverLabel10.Text = "Is Available for rent:";
             // 
@@ -308,7 +308,7 @@
             this.btnAdd.Lighting = false;
             this.btnAdd.LinearGradient_Background = true;
             this.btnAdd.LinearGradientPen = true;
-            this.btnAdd.Location = new System.Drawing.Point(447, 619);
+            this.btnAdd.Location = new System.Drawing.Point(441, 618);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.PenWidth = 15;
             this.btnAdd.RGB = true;
@@ -341,7 +341,7 @@
             this.cbIsAvailableForRent.Items.AddRange(new object[] {
             "Yes",
             "No"});
-            this.cbIsAvailableForRent.Location = new System.Drawing.Point(993, 509);
+            this.cbIsAvailableForRent.Location = new System.Drawing.Point(988, 510);
             this.cbIsAvailableForRent.Name = "cbIsAvailableForRent";
             this.cbIsAvailableForRent.Size = new System.Drawing.Size(123, 36);
             this.cbIsAvailableForRent.TabIndex = 20;
@@ -393,11 +393,11 @@
             // 
             this.foreverLabel8.AutoSize = true;
             this.foreverLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.foreverLabel8.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.foreverLabel8.Font = new System.Drawing.Font("Simplified Arabic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foreverLabel8.ForeColor = System.Drawing.Color.Black;
-            this.foreverLabel8.Location = new System.Drawing.Point(12, 391);
+            this.foreverLabel8.Location = new System.Drawing.Point(17, 401);
             this.foreverLabel8.Name = "foreverLabel8";
-            this.foreverLabel8.Size = new System.Drawing.Size(161, 35);
+            this.foreverLabel8.Size = new System.Drawing.Size(155, 39);
             this.foreverLabel8.TabIndex = 22;
             this.foreverLabel8.Text = "Plate Number:";
             // 

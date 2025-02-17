@@ -124,7 +124,7 @@
             this.btnAddNewCustomer.Lighting = false;
             this.btnAddNewCustomer.LinearGradient_Background = true;
             this.btnAddNewCustomer.LinearGradientPen = true;
-            this.btnAddNewCustomer.Location = new System.Drawing.Point(479, 72);
+            this.btnAddNewCustomer.Location = new System.Drawing.Point(491, 72);
             this.btnAddNewCustomer.Name = "btnAddNewCustomer";
             this.btnAddNewCustomer.PenWidth = 15;
             this.btnAddNewCustomer.RGB = true;
@@ -186,7 +186,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(67)))), ((int)(((byte)(133)))));
-            this.label1.Location = new System.Drawing.Point(475, 9);
+            this.label1.Location = new System.Drawing.Point(487, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(226, 43);
             this.label1.TabIndex = 0;

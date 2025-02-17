@@ -34,7 +34,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvAllCustomers = new ReaLTaiizor.Controls.PoisonDataGridView();
             this.poisonContextMenuStrip1 = new ReaLTaiizor.Controls.PoisonContextMenuStrip(this.components);
-            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCustomers)).BeginInit();
             this.poisonContextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -69,11 +69,10 @@
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvAllCustomers.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvAllCustomers.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgvAllCustomers.EnableHeadersVisualStyles = false;
             this.dgvAllCustomers.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.dgvAllCustomers.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dgvAllCustomers.Location = new System.Drawing.Point(0, 12);
+            this.dgvAllCustomers.Location = new System.Drawing.Point(0, 15);
             this.dgvAllCustomers.Name = "dgvAllCustomers";
             this.dgvAllCustomers.ReadOnly = true;
             this.dgvAllCustomers.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
@@ -90,7 +89,7 @@
             this.dgvAllCustomers.RowTemplate.Height = 24;
             this.dgvAllCustomers.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.dgvAllCustomers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvAllCustomers.Size = new System.Drawing.Size(1214, 725);
+            this.dgvAllCustomers.Size = new System.Drawing.Size(1518, 906);
             this.dgvAllCustomers.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Purple;
             this.dgvAllCustomers.TabIndex = 0;
             // 
@@ -98,28 +97,28 @@
             // 
             this.poisonContextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.poisonContextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.deleteToolStripMenuItem});
+            this.toolStripMenuItem1});
             this.poisonContextMenuStrip1.Name = "poisonContextMenuStrip1";
-            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(215, 66);
+            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(218, 66);
             this.poisonContextMenuStrip1.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Silver;
-            this.poisonContextMenuStrip1.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Dark;
+            this.poisonContextMenuStrip1.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
             // 
-            // deleteToolStripMenuItem
+            // toolStripMenuItem1
             // 
-            this.deleteToolStripMenuItem.AutoSize = false;
-            this.deleteToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.deleteToolStripMenuItem.Image = global::Car_Rental_System.Properties.Resources.bin;
-            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(210, 34);
-            this.deleteToolStripMenuItem.Text = "Delete";
-            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
+            this.toolStripMenuItem1.AutoSize = false;
+            this.toolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem1.Image = global::Car_Rental_System.Properties.Resources.bin;
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(228, 34);
+            this.toolStripMenuItem1.Text = "Delete Customer";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // frmCustomerList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1214, 737);
+            this.ClientSize = new System.Drawing.Size(1517, 917);
             this.Controls.Add(this.dgvAllCustomers);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmCustomerList";
@@ -134,6 +133,6 @@
 
         private ReaLTaiizor.Controls.PoisonDataGridView dgvAllCustomers;
         private ReaLTaiizor.Controls.PoisonContextMenuStrip poisonContextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }
