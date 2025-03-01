@@ -99,7 +99,7 @@ namespace Car_Rental_System
             }
             else if (cbCategory.SelectedIndex == 5)
             {
-                dgvVehicles.DataSource = clsVehicle.GetVehicleListByIsActiveForRent();
+                dgvVehicles.DataSource = clsVehicle.GetAllAvailableVehicles();
             }
         }
 

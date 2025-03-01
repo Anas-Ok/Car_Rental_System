@@ -31,5 +31,11 @@ namespace Car_Rental_System
                 dgvAllCustomers.DataSource = clsCustomer.GetAllCustomers();
             }
         }
+
+        private void bookingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBooking frm = new frmBooking(Convert.ToInt32(dgvAllCustomers.SelectedRows[0].Cells["CustomerID"].Value));
+            frm.ShowDialog();
+        }
     }
 }

@@ -18,9 +18,9 @@ namespace Car_Rental_System
             InitializeComponent();
         }
 
-        public int VehicleID { get; set; }
+        public int? VehicleID { get; set; }
 
-        public void Load(int ID)
+        public void Load(int? ID)
         {
             clsVehicle vehicle = clsVehicle.Find(ID);
 
@@ -78,16 +78,6 @@ namespace Car_Rental_System
 
         }
 
-       
 
-        private void ctrlVehicleInfo_Load_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ctrlVehicleInfo_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

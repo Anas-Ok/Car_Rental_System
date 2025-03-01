@@ -12,13 +12,13 @@ namespace Car_Rental_System.Vehicles
 {
     public partial class frmShowVehicleInfo : Form
     {
-        public frmShowVehicleInfo(int ID)
+        public frmShowVehicleInfo(int? ID)
         {
             InitializeComponent();
 
             ctrlVehicleInfo1.Load(ID);
         }
 
-        
+       
     }
 }

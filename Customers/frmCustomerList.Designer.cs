@@ -34,6 +34,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvAllCustomers = new ReaLTaiizor.Controls.PoisonDataGridView();
             this.poisonContextMenuStrip1 = new ReaLTaiizor.Controls.PoisonContextMenuStrip(this.components);
+            this.bookingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllCustomers)).BeginInit();
             this.poisonContextMenuStrip1.SuspendLayout();
@@ -97,11 +98,21 @@
             // 
             this.poisonContextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.poisonContextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bookingToolStripMenuItem,
             this.toolStripMenuItem1});
             this.poisonContextMenuStrip1.Name = "poisonContextMenuStrip1";
-            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(218, 66);
+            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(218, 92);
             this.poisonContextMenuStrip1.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Silver;
             this.poisonContextMenuStrip1.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
+            // 
+            // bookingToolStripMenuItem
+            // 
+            this.bookingToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bookingToolStripMenuItem.Image = global::Car_Rental_System.Properties.Resources.booking;
+            this.bookingToolStripMenuItem.Name = "bookingToolStripMenuItem";
+            this.bookingToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
+            this.bookingToolStripMenuItem.Text = "Booking";
+            this.bookingToolStripMenuItem.Click += new System.EventHandler(this.bookingToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -109,7 +120,7 @@
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.Image = global::Car_Rental_System.Properties.Resources.bin;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(228, 34);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(228, 30);
             this.toolStripMenuItem1.Text = "Delete Customer";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -134,5 +145,6 @@
         private ReaLTaiizor.Controls.PoisonDataGridView dgvAllCustomers;
         private ReaLTaiizor.Controls.PoisonContextMenuStrip poisonContextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem bookingToolStripMenuItem;
     }
 }
