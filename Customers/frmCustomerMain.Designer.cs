@@ -124,7 +124,7 @@
             this.btnAddNewCustomer.Lighting = false;
             this.btnAddNewCustomer.LinearGradient_Background = true;
             this.btnAddNewCustomer.LinearGradientPen = true;
-            this.btnAddNewCustomer.Location = new System.Drawing.Point(491, 72);
+            this.btnAddNewCustomer.Location = new System.Drawing.Point(495, 72);
             this.btnAddNewCustomer.Name = "btnAddNewCustomer";
             this.btnAddNewCustomer.PenWidth = 15;
             this.btnAddNewCustomer.RGB = true;
