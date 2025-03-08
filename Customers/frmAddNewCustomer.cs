@@ -27,6 +27,12 @@ namespace Car_Rental_System
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if(txtName.Text == "" || txtContactInformation.Text == "" || txtDriverLicenseNumber.Text == "")
+            {
+                MessageBox.Show("Please fill in all fields");
+                return;
+            }   
+
             clsCustomer customer = new clsCustomer();
 
             customer.Name = txtName.Text;

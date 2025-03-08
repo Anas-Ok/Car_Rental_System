@@ -174,7 +174,7 @@
             // 
             this.lblVehicleType.AutoSize = true;
             this.lblVehicleType.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVehicleType.Location = new System.Drawing.Point(613, 241);
+            this.lblVehicleType.Location = new System.Drawing.Point(668, 241);
             this.lblVehicleType.Name = "lblVehicleType";
             this.lblVehicleType.Size = new System.Drawing.Size(34, 25);
             this.lblVehicleType.TabIndex = 13;
@@ -184,7 +184,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(366, 239);
+            this.label7.Location = new System.Drawing.Point(421, 239);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(160, 29);
             this.label7.TabIndex = 12;
@@ -194,7 +194,7 @@
             // 
             this.lblIsAvailableForRent.AutoSize = true;
             this.lblIsAvailableForRent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIsAvailableForRent.Location = new System.Drawing.Point(613, 316);
+            this.lblIsAvailableForRent.Location = new System.Drawing.Point(668, 316);
             this.lblIsAvailableForRent.Name = "lblIsAvailableForRent";
             this.lblIsAvailableForRent.Size = new System.Drawing.Size(34, 25);
             this.lblIsAvailableForRent.TabIndex = 19;
@@ -204,7 +204,7 @@
             // 
             this.lblRentalPricePerDay.AutoSize = true;
             this.lblRentalPricePerDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRentalPricePerDay.Location = new System.Drawing.Point(613, 104);
+            this.lblRentalPricePerDay.Location = new System.Drawing.Point(668, 104);
             this.lblRentalPricePerDay.Name = "lblRentalPricePerDay";
             this.lblRentalPricePerDay.Size = new System.Drawing.Size(34, 25);
             this.lblRentalPricePerDay.TabIndex = 18;
@@ -214,7 +214,7 @@
             // 
             this.lblPlateNumber.AutoSize = true;
             this.lblPlateNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlateNumber.Location = new System.Drawing.Point(614, 177);
+            this.lblPlateNumber.Location = new System.Drawing.Point(669, 177);
             this.lblPlateNumber.Name = "lblPlateNumber";
             this.lblPlateNumber.Size = new System.Drawing.Size(34, 25);
             this.lblPlateNumber.TabIndex = 17;
@@ -224,7 +224,7 @@
             // 
             this.k.AutoSize = true;
             this.k.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.k.Location = new System.Drawing.Point(367, 312);
+            this.k.Location = new System.Drawing.Point(422, 312);
             this.k.Name = "k";
             this.k.Size = new System.Drawing.Size(240, 29);
             this.k.TabIndex = 16;
@@ -234,7 +234,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(366, 100);
+            this.label12.Location = new System.Drawing.Point(421, 100);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(241, 29);
             this.label12.TabIndex = 15;
@@ -244,7 +244,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(367, 173);
+            this.label13.Location = new System.Drawing.Point(422, 173);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(167, 29);
             this.label13.TabIndex = 14;

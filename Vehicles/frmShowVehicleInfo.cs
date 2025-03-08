@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,6 +20,10 @@ namespace Car_Rental_System.Vehicles
             ctrlVehicleInfo1.Load(ID);
         }
 
-       
+        private void pbExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

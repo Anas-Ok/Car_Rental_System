@@ -85,6 +85,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Booking\ctrlShowBookingInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Booking\ctrlShowBookingInfo.Designer.cs">
+      <DependentUpon>ctrlShowBookingInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customers\frmAddNewCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,11 +115,29 @@
     <Compile Include="Customers\frmFindCustomer.Designer.cs">
       <DependentUpon>frmFindCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmBooking.cs">
+    <Compile Include="Booking\frmBooking.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBooking.Designer.cs">
+    <Compile Include="Booking\frmBooking.Designer.cs">
       <DependentUpon>frmBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\frmShowBookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking\frmShowBookings.Designer.cs">
+      <DependentUpon>frmShowBookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking\frmShowBookingInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking\frmShowBookingInfo.Designer.cs">
+      <DependentUpon>frmShowBookingInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransactionBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransactionBooking.Designer.cs">
+      <DependentUpon>frmTransactionBooking.cs</DependentUpon>
     </Compile>
     <Compile Include="Vehicles\ctrlVehicleInfo.cs">
       <SubType>UserControl</SubType>
@@ -171,6 +195,9 @@
     <Compile Include="Vehicles\VehicleMain.Designer.cs">
       <DependentUpon>VehicleMain.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Booking\ctrlShowBookingInfo.resx">
+      <DependentUpon>ctrlShowBookingInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customers\frmAddNewCustomer.resx">
       <DependentUpon>frmAddNewCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -183,8 +210,17 @@
     <EmbeddedResource Include="Customers\frmFindCustomer.resx">
       <DependentUpon>frmFindCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmBooking.resx">
+    <EmbeddedResource Include="Booking\frmBooking.resx">
       <DependentUpon>frmBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\frmShowBookings.resx">
+      <DependentUpon>frmShowBookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking\frmShowBookingInfo.resx">
+      <DependentUpon>frmShowBookingInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransactionBooking.resx">
+      <DependentUpon>frmTransactionBooking.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vehicles\ctrlVehicleInfo.resx">
       <DependentUpon>ctrlVehicleInfo.cs</DependentUpon>
@@ -270,6 +306,48 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traffic-jam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\booking-online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\appointment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\december-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

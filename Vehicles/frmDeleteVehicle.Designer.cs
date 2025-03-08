@@ -31,8 +31,8 @@
             this.cbCategory = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.ctrlVehicleInfo1 = new Car_Rental_System.ctrlVehicleInfo();
             this.btnDelete = new ReaLTaiizor.Controls.CyberButton();
+            this.ctrlVehicleInfo1 = new Car_Rental_System.ctrlVehicleInfo();
             this.SuspendLayout();
             // 
             // cbCategory
@@ -48,7 +48,7 @@
             this.cbCategory.Items.AddRange(new object[] {
             "ID",
             "Plate Number"});
-            this.cbCategory.Location = new System.Drawing.Point(284, 44);
+            this.cbCategory.Location = new System.Drawing.Point(369, 52);
             this.cbCategory.Name = "cbCategory";
             this.cbCategory.Size = new System.Drawing.Size(219, 36);
             this.cbCategory.TabIndex = 0;
@@ -67,7 +67,7 @@
             this.txtSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearch.Location = new System.Drawing.Point(509, 44);
+            this.txtSearch.Location = new System.Drawing.Point(594, 52);
             this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.PasswordChar = '\0';
@@ -82,20 +82,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(54, 44);
+            this.label1.Location = new System.Drawing.Point(122, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 32);
             this.label1.TabIndex = 3;
             this.label1.Text = "Select Category:";
-            // 
-            // ctrlVehicleInfo1
-            // 
-            this.ctrlVehicleInfo1.BackColor = System.Drawing.Color.White;
-            this.ctrlVehicleInfo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ctrlVehicleInfo1.Location = new System.Drawing.Point(60, 109);
-            this.ctrlVehicleInfo1.Name = "ctrlVehicleInfo1";
-            this.ctrlVehicleInfo1.Size = new System.Drawing.Size(981, 461);
-            this.ctrlVehicleInfo1.TabIndex = 4;
             // 
             // btnDelete
             // 
@@ -139,6 +130,16 @@
             this.btnDelete.Timer_Effect_1 = 5;
             this.btnDelete.Timer_RGB = 300;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // ctrlVehicleInfo1
+            // 
+            this.ctrlVehicleInfo1.BackColor = System.Drawing.Color.White;
+            this.ctrlVehicleInfo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ctrlVehicleInfo1.Location = new System.Drawing.Point(128, 118);
+            this.ctrlVehicleInfo1.Name = "ctrlVehicleInfo1";
+            this.ctrlVehicleInfo1.Size = new System.Drawing.Size(777, 456);
+            this.ctrlVehicleInfo1.TabIndex = 4;
+            this.ctrlVehicleInfo1.VehicleID = null;
             // 
             // frmDeleteVehicle
             // 
