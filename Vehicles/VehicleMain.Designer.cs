@@ -48,7 +48,7 @@
             this.PanelMain.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelMain.Location = new System.Drawing.Point(0, 0);
             this.PanelMain.Name = "PanelMain";
-            this.PanelMain.Size = new System.Drawing.Size(1211, 164);
+            this.PanelMain.Size = new System.Drawing.Size(1190, 164);
             this.PanelMain.TabIndex = 0;
             // 
             // btnFindVehicle
@@ -219,6 +219,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.label1.Location = new System.Drawing.Point(486, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 43);
@@ -230,7 +231,7 @@
             this.panelchild.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelchild.Location = new System.Drawing.Point(0, 170);
             this.panelchild.Name = "panelchild";
-            this.panelchild.Size = new System.Drawing.Size(1211, 741);
+            this.panelchild.Size = new System.Drawing.Size(1190, 741);
             this.panelchild.TabIndex = 1;
             // 
             // VehicleMain
@@ -238,7 +239,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1211, 911);
+            this.ClientSize = new System.Drawing.Size(1190, 911);
             this.Controls.Add(this.panelchild);
             this.Controls.Add(this.PanelMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

@@ -49,10 +49,16 @@ namespace Car_Rental_System
             ShowFormInPanel(main);
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void btnCustomers_Click(object sender, EventArgs e)
         {
-
             frmCustomerMain main = new frmCustomerMain();
+
+            ShowFormInPanel(main);
+        }
+
+        private void btnBooking_Click(object sender, EventArgs e)
+        {
+            frmShowBookings main = new frmShowBookings();
 
             ShowFormInPanel(main);
         }

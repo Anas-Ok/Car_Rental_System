@@ -30,7 +30,8 @@
         {
             this.crownButton1 = new ReaLTaiizor.Controls.CrownButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnBooking = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCustomers = new Guna.UI2.WinForms.Guna2Button();
             this.btnVehicle = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashBoard = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -53,33 +54,64 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Controls.Add(this.guna2Button1);
+            this.panel1.Controls.Add(this.btnBooking);
+            this.panel1.Controls.Add(this.btnCustomers);
             this.panel1.Controls.Add(this.btnVehicle);
             this.panel1.Controls.Add(this.btnDashBoard);
             this.panel1.Controls.Add(this.guna2Panel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(219, 913);
+            this.panel1.Size = new System.Drawing.Size(245, 913);
             this.panel1.TabIndex = 2;
             // 
-            // guna2Button1
+            // btnBooking
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Button1.FillColor = System.Drawing.Color.Black;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(0, 315);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(219, 69);
-            this.guna2Button1.TabIndex = 3;
-            this.guna2Button1.Text = "Customers";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnBooking.Animated = true;
+            this.btnBooking.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnBooking.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnBooking.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnBooking.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnBooking.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBooking.FillColor = System.Drawing.Color.Black;
+            this.btnBooking.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnBooking.ForeColor = System.Drawing.Color.White;
+            this.btnBooking.Image = global::Car_Rental_System.Properties.Resources.booking_online;
+            this.btnBooking.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnBooking.ImageOffset = new System.Drawing.Point(9, 0);
+            this.btnBooking.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnBooking.Location = new System.Drawing.Point(0, 384);
+            this.btnBooking.Name = "btnBooking";
+            this.btnBooking.Size = new System.Drawing.Size(245, 73);
+            this.btnBooking.TabIndex = 4;
+            this.btnBooking.Text = "Booking";
+            this.btnBooking.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnBooking.TextOffset = new System.Drawing.Point(-12, 0);
+            this.btnBooking.Click += new System.EventHandler(this.btnBooking_Click);
+            // 
+            // btnCustomers
+            // 
+            this.btnCustomers.Animated = true;
+            this.btnCustomers.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCustomers.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCustomers.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCustomers.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCustomers.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCustomers.FillColor = System.Drawing.Color.Black;
+            this.btnCustomers.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnCustomers.ForeColor = System.Drawing.Color.White;
+            this.btnCustomers.Image = global::Car_Rental_System.Properties.Resources.customer;
+            this.btnCustomers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnCustomers.ImageOffset = new System.Drawing.Point(9, 0);
+            this.btnCustomers.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnCustomers.Location = new System.Drawing.Point(0, 315);
+            this.btnCustomers.Name = "btnCustomers";
+            this.btnCustomers.Size = new System.Drawing.Size(245, 69);
+            this.btnCustomers.TabIndex = 3;
+            this.btnCustomers.Text = "Customers";
+            this.btnCustomers.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnCustomers.TextOffset = new System.Drawing.Point(-9, 0);
+            this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
             // 
             // btnVehicle
             // 
@@ -92,11 +124,17 @@
             this.btnVehicle.FillColor = System.Drawing.Color.Black;
             this.btnVehicle.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.btnVehicle.ForeColor = System.Drawing.Color.White;
+            this.btnVehicle.Image = global::Car_Rental_System.Properties.Resources.traffic_jam;
+            this.btnVehicle.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnVehicle.ImageOffset = new System.Drawing.Point(6, 0);
+            this.btnVehicle.ImageSize = new System.Drawing.Size(35, 35);
             this.btnVehicle.Location = new System.Drawing.Point(0, 246);
             this.btnVehicle.Name = "btnVehicle";
-            this.btnVehicle.Size = new System.Drawing.Size(219, 69);
+            this.btnVehicle.Size = new System.Drawing.Size(245, 69);
             this.btnVehicle.TabIndex = 2;
             this.btnVehicle.Text = "Vehicles";
+            this.btnVehicle.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnVehicle.TextOffset = new System.Drawing.Point(-13, 0);
             this.btnVehicle.Click += new System.EventHandler(this.btnVehicle_Click);
             // 
             // btnDashBoard
@@ -110,11 +148,17 @@
             this.btnDashBoard.FillColor = System.Drawing.Color.Black;
             this.btnDashBoard.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashBoard.ForeColor = System.Drawing.Color.White;
+            this.btnDashBoard.Image = global::Car_Rental_System.Properties.Resources.menu;
+            this.btnDashBoard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDashBoard.ImageOffset = new System.Drawing.Point(7, 0);
+            this.btnDashBoard.ImageSize = new System.Drawing.Size(25, 25);
             this.btnDashBoard.Location = new System.Drawing.Point(0, 177);
             this.btnDashBoard.Name = "btnDashBoard";
-            this.btnDashBoard.Size = new System.Drawing.Size(219, 69);
+            this.btnDashBoard.Size = new System.Drawing.Size(245, 69);
             this.btnDashBoard.TabIndex = 1;
             this.btnDashBoard.Text = "Dash Board";
+            this.btnDashBoard.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnDashBoard.TextOffset = new System.Drawing.Point(-7, 0);
             this.btnDashBoard.Click += new System.EventHandler(this.btnDashBoard_Click_1);
             // 
             // guna2Panel1
@@ -124,7 +168,7 @@
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(219, 177);
+            this.guna2Panel1.Size = new System.Drawing.Size(245, 177);
             this.guna2Panel1.TabIndex = 0;
             // 
             // foxLabel2
@@ -132,7 +176,7 @@
             this.foxLabel2.BackColor = System.Drawing.Color.Transparent;
             this.foxLabel2.Font = new System.Drawing.Font("SimSun-ExtB", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foxLabel2.ForeColor = System.Drawing.Color.White;
-            this.foxLabel2.Location = new System.Drawing.Point(61, 87);
+            this.foxLabel2.Location = new System.Drawing.Point(117, 87);
             this.foxLabel2.Name = "foxLabel2";
             this.foxLabel2.Size = new System.Drawing.Size(103, 45);
             this.foxLabel2.TabIndex = 1;
@@ -143,7 +187,7 @@
             this.foxLabel1.BackColor = System.Drawing.Color.Transparent;
             this.foxLabel1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.foxLabel1.ForeColor = System.Drawing.Color.White;
-            this.foxLabel1.Location = new System.Drawing.Point(31, 53);
+            this.foxLabel1.Location = new System.Drawing.Point(38, 53);
             this.foxLabel1.Name = "foxLabel1";
             this.foxLabel1.Size = new System.Drawing.Size(172, 45);
             this.foxLabel1.TabIndex = 0;
@@ -152,9 +196,9 @@
             // panelForm
             // 
             this.panelForm.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelForm.Location = new System.Drawing.Point(217, 0);
+            this.panelForm.Location = new System.Drawing.Point(244, 0);
             this.panelForm.Name = "panelForm";
-            this.panelForm.Size = new System.Drawing.Size(1211, 913);
+            this.panelForm.Size = new System.Drawing.Size(1184, 913);
             this.panelForm.TabIndex = 3;
             // 
             // Form1
@@ -188,7 +232,8 @@
         private ReaLTaiizor.Controls.FoxLabel foxLabel2;
         private ReaLTaiizor.Controls.FoxLabel foxLabel1;
         private Guna.UI2.WinForms.Guna2Button btnVehicle;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnCustomers;
+        private Guna.UI2.WinForms.Guna2Button btnBooking;
     }
 }
 

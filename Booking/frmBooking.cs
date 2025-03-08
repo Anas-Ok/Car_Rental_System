@@ -110,7 +110,7 @@ namespace Car_Rental_System
 
             if (booking.AddNewBooking())
             {
-                booking = booking.Find(booking.BookingID.Value);
+                booking = clsBooking.Find(booking.BookingID.Value);
               
                 FillInfo(booking);
 
