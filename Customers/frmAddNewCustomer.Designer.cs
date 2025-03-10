@@ -40,9 +40,9 @@
             this.lblCustomerName = new ReaLTaiizor.Controls.ForeverLabel();
             this.lblDriverLicenseNumber = new ReaLTaiizor.Controls.ForeverLabel();
             this.lblContactInformation = new ReaLTaiizor.Controls.ForeverLabel();
-            this.btnAdd = new ReaLTaiizor.Controls.CyberButton();
             this.lblCustomerID = new ReaLTaiizor.Controls.ForeverLabel();
             this.foreverLabel8 = new ReaLTaiizor.Controls.ForeverLabel();
+            this.btnAdd = new ReaLTaiizor.Controls.CyberButton();
             this.SuspendLayout();
             // 
             // foreverLabel1
@@ -213,47 +213,6 @@
             this.lblContactInformation.TabIndex = 13;
             this.lblContactInformation.Text = "??";
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Alpha = 20;
-            this.btnAdd.BackColor = System.Drawing.Color.Transparent;
-            this.btnAdd.Background = true;
-            this.btnAdd.Background_WidthPen = 4F;
-            this.btnAdd.BackgroundPen = true;
-            this.btnAdd.ColorBackground = System.Drawing.Color.DimGray;
-            this.btnAdd.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(67)))), ((int)(((byte)(133)))));
-            this.btnAdd.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(99)))), ((int)(((byte)(149)))));
-            this.btnAdd.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
-            this.btnAdd.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
-            this.btnAdd.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(99)))), ((int)(((byte)(149)))));
-            this.btnAdd.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(99)))), ((int)(((byte)(149)))));
-            this.btnAdd.CyberButtonStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
-            this.btnAdd.Effect_1 = true;
-            this.btnAdd.Effect_1_ColorBackground = System.Drawing.Color.DimGray;
-            this.btnAdd.Effect_1_Transparency = 25;
-            this.btnAdd.Effect_2 = true;
-            this.btnAdd.Effect_2_ColorBackground = System.Drawing.Color.White;
-            this.btnAdd.Effect_2_Transparency = 20;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft YaHei UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
-            this.btnAdd.Lighting = false;
-            this.btnAdd.LinearGradient_Background = true;
-            this.btnAdd.LinearGradientPen = true;
-            this.btnAdd.Location = new System.Drawing.Point(464, 564);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.PenWidth = 15;
-            this.btnAdd.Rounding = true;
-            this.btnAdd.RoundingInt = 70;
-            this.btnAdd.Size = new System.Drawing.Size(295, 88);
-            this.btnAdd.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
-            this.btnAdd.TabIndex = 14;
-            this.btnAdd.Tag = "Cyber";
-            this.btnAdd.TextButton = "Add";
-            this.btnAdd.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
-            this.btnAdd.Timer_Effect_1 = 5;
-            this.btnAdd.Timer_RGB = 300;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
             // lblCustomerID
             // 
             this.lblCustomerID.AutoSize = true;
@@ -278,15 +237,57 @@
             this.foreverLabel8.TabIndex = 15;
             this.foreverLabel8.Text = "Customer ID:";
             // 
+            // btnAdd
+            // 
+            this.btnAdd.Alpha = 20;
+            this.btnAdd.BackColor = System.Drawing.Color.Transparent;
+            this.btnAdd.Background = true;
+            this.btnAdd.Background_WidthPen = 4F;
+            this.btnAdd.BackgroundPen = true;
+            this.btnAdd.ColorBackground = System.Drawing.Color.DimGray;
+            this.btnAdd.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.btnAdd.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.btnAdd.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.btnAdd.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(200)))), ((int)(((byte)(238)))));
+            this.btnAdd.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.btnAdd.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.btnAdd.CyberButtonStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.btnAdd.Effect_1 = true;
+            this.btnAdd.Effect_1_ColorBackground = System.Drawing.Color.DimGray;
+            this.btnAdd.Effect_1_Transparency = 25;
+            this.btnAdd.Effect_2 = true;
+            this.btnAdd.Effect_2_ColorBackground = System.Drawing.Color.White;
+            this.btnAdd.Effect_2_Transparency = 20;
+            this.btnAdd.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.btnAdd.Lighting = false;
+            this.btnAdd.LinearGradient_Background = true;
+            this.btnAdd.LinearGradientPen = true;
+            this.btnAdd.Location = new System.Drawing.Point(472, 603);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.PenWidth = 15;
+            this.btnAdd.RGB = true;
+            this.btnAdd.Rounding = true;
+            this.btnAdd.RoundingInt = 70;
+            this.btnAdd.Size = new System.Drawing.Size(225, 97);
+            this.btnAdd.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.btnAdd.TabIndex = 17;
+            this.btnAdd.Tag = "Cyber";
+            this.btnAdd.TextButton = "Add";
+            this.btnAdd.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.btnAdd.Timer_Effect_1 = 5;
+            this.btnAdd.Timer_RGB = 300;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
             // frmAddNewCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1212, 734);
+            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lblCustomerID);
             this.Controls.Add(this.foreverLabel8);
-            this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lblContactInformation);
             this.Controls.Add(this.lblDriverLicenseNumber);
             this.Controls.Add(this.lblCustomerName);
@@ -322,8 +323,8 @@
         private ReaLTaiizor.Controls.ForeverLabel lblCustomerName;
         private ReaLTaiizor.Controls.ForeverLabel lblDriverLicenseNumber;
         private ReaLTaiizor.Controls.ForeverLabel lblContactInformation;
-        private ReaLTaiizor.Controls.CyberButton btnAdd;
         private ReaLTaiizor.Controls.ForeverLabel lblCustomerID;
         private ReaLTaiizor.Controls.ForeverLabel foreverLabel8;
+        private ReaLTaiizor.Controls.CyberButton btnAdd;
     }
 }

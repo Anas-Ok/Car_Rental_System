@@ -38,6 +38,7 @@
             this.tsmShowInformation = new System.Windows.Forms.ToolStripMenuItem();
             this.cbSearchCategory = new Guna.UI2.WinForms.Guna2ComboBox();
             this.tbSearch = new Guna.UI2.WinForms.Guna2TextBox();
+            this.transactionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAllBookings)).BeginInit();
             this.poisonContextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -107,9 +108,10 @@
             // 
             this.poisonContextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.poisonContextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmShowInformation});
+            this.tsmShowInformation,
+            this.transactionToolStripMenuItem});
             this.poisonContextMenuStrip1.Name = "poisonContextMenuStrip1";
-            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(229, 34);
+            this.poisonContextMenuStrip1.Size = new System.Drawing.Size(229, 92);
             this.poisonContextMenuStrip1.Style = ReaLTaiizor.Enum.Poison.ColorStyle.Silver;
             this.poisonContextMenuStrip1.Theme = ReaLTaiizor.Enum.Poison.ThemeStyle.Light;
             // 
@@ -169,6 +171,12 @@
             this.tbSearch.TabIndex = 4;
             this.tbSearch.TextChanged += new System.EventHandler(this.tbSearch_TextChanged);
             // 
+            // transactionToolStripMenuItem
+            // 
+            this.transactionToolStripMenuItem.Name = "transactionToolStripMenuItem";
+            this.transactionToolStripMenuItem.Size = new System.Drawing.Size(228, 30);
+            this.transactionToolStripMenuItem.Text = "Transaction";
+            // 
             // frmShowBookings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -197,5 +205,6 @@
         private Guna.UI2.WinForms.Guna2TextBox tbSearch;
         private ReaLTaiizor.Controls.PoisonContextMenuStrip poisonContextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem tsmShowInformation;
+        private System.Windows.Forms.ToolStripMenuItem transactionToolStripMenuItem;
     }
 }

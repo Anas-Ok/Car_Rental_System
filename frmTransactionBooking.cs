@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Car_Rental_BusinessL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,22 @@ namespace Car_Rental_System
 {
     public partial class frmTransactionBooking : Form
     {
-        public frmTransactionBooking()
+        private int BookingID { get; set; }
+        public frmTransactionBooking(int bookingid)
         {
             InitializeComponent();
+
+            BookingID = bookingid;
+        }
+
+        private void frmTransactionBooking_Load(object sender, EventArgs e)
+        {
+            clsBooking booking = clsBooking.Find(BookingID);
+
+            lblBookingID.Text = booking.BookingID.ToString();
+            lblInitialTotalDueAmount.Text = booking.InitialTotalDueAmount.ToString();
+
+
         }
     }
 }
